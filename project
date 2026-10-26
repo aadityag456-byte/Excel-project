@@ -1,0 +1,79 @@
+# Excel-project
+I specialize in Excel Data Entry, Data Cleaning, Formatting, and Formulas. I focus on accuracy, organized data, and professional spreadsheets.
+# Microsoft Excel Data Entry, Cleaning, Formatting & Salary Analysis Project
+
+## Project Overview
+This project demonstrates practical Microsoft Excel skills for managing, cleaning, formatting, and analyzing employee salary data. The main goal is to convert raw data into a clean, accurate, organized, and professional spreadsheet.
+
+## Key Features
+- **Data Entry:** Entering and organizing employee information accurately.
+- **Data Cleaning:** Identifying and removing duplicate records and correcting data errors.
+- **Data Formatting:** Applying proper number formats, date formats, cell alignment, borders, and professional table styles.
+- **Conditional Formatting:** Highlighting important salary values based on specific conditions.
+- **Salary Management:** Organizing employee details, annual salary, and monthly salary.
+- **Sorting and Filtering:** Finding and arranging employee records quickly.
+- **Data Analysis:** Using Excel formulas to calculate totals, averages, and salary statistics.
+
+## Excel Formulas Used
+
+**1. SUM — Calculate Total Salary**
+```excel
+=SUM(E2:E208)
+```
+Adds all salary values in the selected range.
+
+**2. AVERAGE — Calculate Average Salary**
+```excel
+=AVERAGE(E2:E208)
+```
+Calculates the average salary of employees.
+
+**3. COUNT — Count Numeric Entries**
+```excel
+=COUNT(E2:E208)
+```
+Counts cells containing numbers.
+
+**4. COUNTIF — Count High-Salary Employees**
+```excel
+=COUNTIF(E2:E208,">100000")
+```
+Counts salary records greater than 100,000.
+
+**5. IF — Calculate Monthly Salary**
+```excel
+=IF(D2>0,D2/12,0)
+```
+Calculates monthly salary from annual salary in cell D2, provided the value is positive.
+
+**6. MAX — Find the Highest Salary**
+```excel
+=MAX(E2:E208)
+```
+Returns the highest salary in the selected range.
+
+**7. MIN — Find the Lowest Salary**
+```excel
+=MIN(E2:E208)
+```
+Returns the lowest salary in the selected range.
+
+**8. Remove Duplicates**
+Excel's Remove Duplicates feature helps eliminate repeated records and improve data accuracy.
+
+## Tools Used
+- Microsoft Excel
+- Excel Formulas and Functions
+- Data Cleaning and Formatting Tools
+- Conditional Formatting
+- Sorting and Filtering
+## Project Objective
+The objective is to improve data accuracy, organize employee salary information, automate calculations, and make spreadsheets easier to understand and analyze.
+
+## Skills Demonstrated
+Microsoft Excel, Data Entry, Data Cleaning, Data Formatting, Spreadsheet Management, Formula-Based Calculations, Conditional Formatting, and Data Analysis.
+
+Dataset used
+
+- <a herf="https://github.com/aadityag456-byte/Excel-project/blob/main/aaditya%20gupta.xlsx">dataset veiw</a>
+- dashboard <a href="https://github.com/aadityag456-byte/Excel-project/blob/main/Microsoft%20Excel%20Skills%20and%20Data%20Solutions.png"> dashboard view</a>
